@@ -5279,6 +5279,124 @@ button.swiper-pagination-bullet {
   }
 }
 
+@media (max-width: 29.99875em) {
+  .form-buy__name {
+    margin-bottom: 1rem;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .block-center__bredcrumps {
+    margin-bottom: 1.4375rem;
+  }
+
+  .form__error {
+    bottom: -12px;
+  }
+
+  .menu__link {
+    font-size: 1.375rem;
+  }
+
+  .company__title {
+    font-size: 1.5625rem;
+  }
+
+  .company__title span::before {
+    bottom: 15%;
+  }
+
+  .company__bottom {
+    position: relative;
+    z-index: 2;
+    padding: 1.5625rem 0.9375rem 2.5rem;
+  }
+
+  .slider-products__body {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    overflow: visible !important;
+  }
+
+  .slider-partners__img {
+    padding: 0.625rem 0;
+  }
+
+  .catalog__links {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1.25rem;
+  }
+
+  .link-catalog {
+    border-radius: 0.8125rem;
+  }
+
+  .link-catalog__text {
+    padding: 0;
+    border-radius: 0.8125rem;
+  }
+
+  .information-goods__button {
+    width: 177px;
+  }
+
+  .slider-product__img {
+    width: 93px;
+    height: 127px;
+  }
+
+  .sub-slider__img {
+    width: 28px;
+    height: 38px;
+  }
+
+  .characters-list__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .block-form__row {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    row-gap: 0.9375rem;
+  }
+
+  .block-form__row:not(:last-child) {
+    margin-bottom: 0.9375rem;
+  }
+
+  .products-form {
+    padding: 1rem 1.25rem 1.625rem;
+  }
+
+  .product-form {
+    -ms-grid-columns: 1fr 11px;
+    grid-template-columns: 1fr 11px;
+    row-gap: 0.625rem;
+  }
+
+  .product-form__img-con {
+    -ms-grid-column-span: 2;
+    grid-column: span 2;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    padding: 1.875rem;
+    width: 250px;
+  }
+
+  .product-form__img {
+    width: 70px;
+    height: 98px;
+  }
+}
+
 @media (max-width: 47.99875em) {
   .arrors-slider__arrow_small {
     display: none;
@@ -5698,124 +5816,6 @@ button.swiper-pagination-bullet {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     row-gap: 1rem;
-  }
-}
-
-@media (max-width: 29.99875em) {
-  .form-buy__name {
-    margin-bottom: 1rem;
-  }
-
-  .btn {
-    width: 100%;
-  }
-
-  .block-center__bredcrumps {
-    margin-bottom: 1.4375rem;
-  }
-
-  .form__error {
-    bottom: -12px;
-  }
-
-  .menu__link {
-    font-size: 1.375rem;
-  }
-
-  .company__title {
-    font-size: 1.5625rem;
-  }
-
-  .company__title span::before {
-    bottom: 15%;
-  }
-
-  .company__bottom {
-    position: relative;
-    z-index: 2;
-    padding: 1.5625rem 0.9375rem 2.5rem;
-  }
-
-  .slider-products__body {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-    overflow: visible !important;
-  }
-
-  .slider-partners__img {
-    padding: 0.625rem 0;
-  }
-
-  .catalog__links {
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 1.25rem;
-  }
-
-  .link-catalog {
-    border-radius: 0.8125rem;
-  }
-
-  .link-catalog__text {
-    padding: 0;
-    border-radius: 0.8125rem;
-  }
-
-  .information-goods__button {
-    width: 177px;
-  }
-
-  .slider-product__img {
-    width: 93px;
-    height: 127px;
-  }
-
-  .sub-slider__img {
-    width: 28px;
-    height: 38px;
-  }
-
-  .characters-list__text {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-
-  .block-form__row {
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-    row-gap: 0.9375rem;
-  }
-
-  .block-form__row:not(:last-child) {
-    margin-bottom: 0.9375rem;
-  }
-
-  .products-form {
-    padding: 1rem 1.25rem 1.625rem;
-  }
-
-  .product-form {
-    -ms-grid-columns: 1fr 11px;
-    grid-template-columns: 1fr 11px;
-    row-gap: 0.625rem;
-  }
-
-  .product-form__img-con {
-    -ms-grid-column-span: 2;
-    grid-column: span 2;
-    -ms-grid-column-align: center;
-        justify-self: center;
-    padding: 1.875rem;
-    width: 250px;
-  }
-
-  .product-form__img {
-    width: 70px;
-    height: 98px;
   }
 }
 
